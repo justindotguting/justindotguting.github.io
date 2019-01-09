@@ -1,0 +1,67 @@
+<div class="col-md-8 top-card-center">
+  <div class="card bg-grey card-height">
+    <ul *ngIf="users">
+      <li *ngFor="let user of users.data">
+        <img [src]="user.avatar">
+        <p>{{user.first_name}} {{user.last_name}}</p>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+<div class="col-md-8 top-card-center">
+  <div class="card bg-grey card-height">
+    <ul *ngIf="users">
+      <li *ngFor="let user of users.data">
+        <img [src]="user.avatar">
+        <p>{{user.firsts_name}} {{user.last_name}}</p>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+<div class="row content-top-margin">
+  <div class="col-md-2 offset-md-2">
+    <div class="card bg-grey card-height">
+      <div class="margin-auto">
+        <img class="card-img-top card-image-width" src="../../assets/images/Nationwide_Mutual_Insurance_Company_logo.svg.png"
+          alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Currently a developer at Nationwide Insurnace.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="card bg-grey card-height">
+      <div class="margin-auto">
+        <img class="card-img-top card-image-width" src="../../assets/images/Kent State.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Gradudated from Kent State in 2017, B.S. in Computer Science </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="card bg-grey card-height">
+      <div class="margin-auto">
+        <img class="card-img-top card-image-width" src="../../assets/images/Angular_full_color_logo.svg.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Developing Angular 7.1.3 skils for front end web development</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2 ">
+    <div class="card bg-grey card-height">
+      <div class="margin-auto">
+        <img class="card-img-top card-image-width" src="../../assets/images/Boostrap_logo.svg.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Utilizing Twitter's Bootstrap Front end framework for an HTML and CSS framework</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
