@@ -15,7 +15,7 @@
 }
 
 .content-top-margin{
-    margin: 2% 0 0 0;
+    margin: 2% 0 5% 0;
 }
 
 
@@ -71,3 +71,32 @@ ul {
     }
 }
 
+.center {
+    max-width: 100%;
+    height: auto;
+    border: none;
+  }
+
+.card-photo-scale{
+    max-width: 100%;
+     height: auto;
+     border: none;
+}
+.no-border{
+    border: none;
+    border-width: 0;
+}
+
+.map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-2 iframe{
+    left:0;
+    top:0;
+    height: auto;
+    width: auto;
+    position:absolute;
+    }
